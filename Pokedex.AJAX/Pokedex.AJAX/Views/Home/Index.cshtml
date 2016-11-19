@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+  <h1>Pokédex</h1>
+  <button id="btn-novo-pokemon" class="btn btn-info">Criar novo pokémon</button>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <ul id="lista-pokemons"></ul>
+  </div>
+</div>
+
+@section scripts {
+  <script src="~/Scripts/app/versaoJQueryPromisesThen.js"></script>
+  @*<script src="~/Scripts/app/versaoJQueryPromises.js"></script>*@
+  @*<script src="~/Scripts/app/versaoJQueryShorthandCallback.js"></script>*@
+  @*<script src="~/Scripts/app/versaoJQueryAjax.js"></script>*@
+  @*<script src="~/Scripts/app/versaoVanilla.js"></script>*@
+}
